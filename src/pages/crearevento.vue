@@ -14,8 +14,9 @@
     label="Logo:"
     
     >
-     <font-awesome-icon slot="media" icon="user-secret" />
+    <font-awesome-icon slot="media" icon="user-secret" />
     </f7-list-item>
+   
      <f7-list-input
     label="Foto Portada:"
     > </f7-list-input>
