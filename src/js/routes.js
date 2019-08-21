@@ -3,6 +3,9 @@ import HomePage from '../pages/home.vue';
 import AboutPage from '../pages/about.vue';
 import FormPage from '../pages/form.vue';
 
+import principal from '../pages/principal';
+import crearevento from '../pages/crearevento';
+
 import LeftPage1 from '../pages/left-page-1.vue';
 import LeftPage2 from '../pages/left-page-2.vue';
 import DynamicRoutePage from '../pages/dynamic-route.vue';
@@ -10,6 +13,14 @@ import RequestAndLoad from '../pages/request-and-load.vue';
 import NotFoundPage from '../pages/404.vue';
 
 var routes = [
+  {
+    path: '/principal/',
+    component: principal,
+  },
+  {
+    path: '/crearevento/',
+    component: crearevento,
+  },
   {
     path: '/',
     component: HomePage,

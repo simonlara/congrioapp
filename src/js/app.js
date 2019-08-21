@@ -17,6 +17,15 @@ import '../css/app.css';
 // Import App Component
 import App from '../components/app.vue';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+library.add(faUserSecret)
+
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.config.productionTip = false
+
 // Init Framework7-Vue Plugin
 Framework7.use(Framework7Vue);
 
